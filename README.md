@@ -4,9 +4,13 @@ Pour ce project, il consiste a envoyer un message vers un collegue de sorte que 
 #chose a faire
 
 '---->' creer les dossier suivante dans le dossier cryptoProject
+
    *tocrypt
+
    *crypted
+
    *todecrypt
+
    *decrypted
 
 
