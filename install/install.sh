@@ -3,7 +3,7 @@ sudo cp /home/$USER/cryptoProject/src/crypt.service /etc/systemd/system/crypt.se
 sudo systemctl start crypt.service
 sudo systemctl enable crypt.service
 
-cp /home/$USER/cryptoProject/crypted/crypted.txt  /home/$USER/cryptoProject/todecrypt/todecrypt.txt
+sudo cp /home/$USER/cryptoProject/crypted/crypted.txt  /home/$USER/cryptoProject/todecrypt/todecrypt.txt
 
 #decrypter le message
 sudo cp /home/$USER/cryptoProject/src/decrypt.service /etc/systemd/system/decrypt.service
